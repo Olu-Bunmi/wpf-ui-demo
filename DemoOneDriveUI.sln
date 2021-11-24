@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoOneDriveUI", "DemoOneDriveUI\DemoOneDriveUI.csproj", "{04FDA9A2-6D39-493B-8F2E-0F2A3244F856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04FDA9A2-6D39-493B-8F2E-0F2A3244F856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04FDA9A2-6D39-493B-8F2E-0F2A3244F856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04FDA9A2-6D39-493B-8F2E-0F2A3244F856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04FDA9A2-6D39-493B-8F2E-0F2A3244F856}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15EBDACE-9999-48D3-86AD-775E92998A19}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿<Window x:Class="DemoOneDriveUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoOneDriveUI"
+        mc:Ignorable="d"
+        Title="" Height="626" Width="358" ResizeMode="CanResize" >
+    <StackPanel Margin="10">
+        <local:CustomControl2 Width="Auto" Margin="0,0,0,10"/>
+        <local:CustomControl Width="Auto" Margin="20,0,0,10" fileImage="images/imgicon.PNG" fileName="ICTOS_WMS FAQ" fileTitle="Downloaded To 錄製" downloadTime="39 seconds ago"/>
+        <local:CustomControl Width="Auto" Margin="20,0,0,10" fileName="PK00021176.PDF" fileTitle="Downloaded to Teams" downloadTime="22 minutes ago" fileImage="images/pdficon.png"/>
+        <local:CustomControl Width="Auto" Margin="20,0,0,10" fileName="Consignment.PDF" fileTitle="Downloaded to Teams" downloadTime="45 minutes ago" fileImage="images/pdficon.png"/>
+        <local:CustomControl Width="Auto" Margin="20,0,0,10" fileName="Manifest.PDF" fileTitle="Downloaded to Teams" downloadTime="5 minutes ago" fileImage="images/pdficon.png"/>
+        <Grid Height="100" Margin="0,100,0,10" Background="LightGray">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="110"/>
+                <ColumnDefinition Width="116"/>
+                <ColumnDefinition Width="131"/>
+            </Grid.ColumnDefinitions>
+            <Image HorizontalAlignment="Left" Height="49" Margin="32,14,0,0" VerticalAlignment="Top" Width="43" Source="images/icon-folder.png"/>
+            <TextBlock HorizontalAlignment="Left" Margin="17,63,0,0" TextWrapping="Wrap" Text="Open folder" FontSize="12" VerticalAlignment="Top" Height="20" Width="68"/>
+            <Image Grid.Column="1" HorizontalAlignment="Left" Height="49" Margin="29,13,0,0" VerticalAlignment="Top" Width="54" Source="images/icon-website.png" RenderTransformOrigin="0.815,0.546"/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="19,63,0,0" TextWrapping="Wrap" Text="View Online" FontSize="12" VerticalAlignment="Top"/>
+            <Image Grid.Column="2" HorizontalAlignment="Left" Height="48" Margin="27,16,0,0" VerticalAlignment="Top" Width="50" Source="images/icon-settings.png"/>
+            <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="28,63,0,0" TextWrapping="Wrap" Text="Settings" FontSize="12" VerticalAlignment="Top"/>
+        </Grid>
+
+
+
+    </StackPanel>
+</Window>
