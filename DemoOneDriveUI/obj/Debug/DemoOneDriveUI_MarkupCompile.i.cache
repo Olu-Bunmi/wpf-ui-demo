@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\OluStuffs\wpf\DemoOneDriveUI\DemoOneDriveUI\obj\Debug\
+C:\OluStuffs\wpf\wpf-ui\wpf-ui-demo\DemoOneDriveUI\obj\Debug\
 DemoOneDriveUI
 none
 false
 DEBUG;TRACE
-C:\OluStuffs\wpf\DemoOneDriveUI\DemoOneDriveUI\App.xaml
+C:\OluStuffs\wpf\wpf-ui\wpf-ui-demo\DemoOneDriveUI\App.xaml
 3-1250933222
 
 8582196253
 141183416626
 CustomControl.xaml;CustomControl2.xaml;MainWindow.xaml;
 
-True
+False
 
