@@ -1,2 +1,2 @@
 # wpf-ui-demo
-OneDrive A=Desktop UI Demo
+OneDrive Desktop application UI Demo with WPF
